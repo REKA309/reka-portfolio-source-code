@@ -5,7 +5,7 @@ export default function ContactSection({isDarkMode})
 {
     const currentYear = new Date().getFullYear();
   const yourNameOrCompany = 'REKA NAGARAJ';
-  const contactEmail = 'your@email.com';
+  const contactEmail = 'reka3092@gmail.com';
     return(
         <div className="contact-whole">
         <div className="contact-container">
