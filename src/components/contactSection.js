@@ -5,7 +5,7 @@ export default function ContactSection({isDarkMode})
 {
     const currentYear = new Date().getFullYear();
   const yourNameOrCompany = 'REKA NAGARAJ';
-  const contactEmail = 'reka3092@gmail.com';
+//   const contactEmail = 'reka3092@gmail.com'
     return(
         <div className="contact-whole">
         <div className="contact-container">
@@ -25,9 +25,8 @@ export default function ContactSection({isDarkMode})
       <p style={{ color: isDarkMode ? "#fff" : "#000" }}>&copy; {currentYear} {yourNameOrCompany}</p>
       <p style={{ color: isDarkMode ? "#fff" : "#000" }}>
      
-All content on this website is copyrighted and owned by {yourNameOrCompany}. Unauthorized reproduction or use in any form is prohibited. Third-party images and resources are subject to their respective licenses. For inquiries &nbsp;<a className="under" href={`mailto:${contactEmail}`}>
-    Click Here
-    </a>
+All content on this website is copyrighted and owned by {yourNameOrCompany}. Unauthorized reproduction or use in any form is prohibited. Third-party images and resources are subject to their respective licenses. For inquiries,reach out to mail given above.
+   
       </p>
      
     </div>
